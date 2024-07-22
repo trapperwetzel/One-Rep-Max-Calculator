@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block title %}One Rep Max Calculator{% endblock %}
+
+{% block content %}
+    
+
+   
+    <section class="calculator">
+        <h1>Welcome to the One Rep Max Calculator!</h1>
+        <h2>Would you like to calculate your one rep max? Look no further!</h2>
+
+        <form  action="/" method="POST">
+            <div class="form-container">
+                <h1 id = "calculatorheader">Calculate your maxes!</h1>
+
+
+                <label for="username">Enter your username (optional):</label>    
+                <input type="text" id="username" name="username" ><br><br> 
+
+                <label for="bodyweight">Enter your bodyweight (optional):</label>
+                <input type="text" id="bodyweight" name="bodyweight"><br><br> 
+
+                <h2>Squat</h2>
+
+                <label for="squat_weight">Weight:</label>
+                <input type="text" id="squat_weight" name="squat_weight"><br><br> 
+
+                <label for="squat_reps">Repetitions:</label>
+                <input type="text" id="squat_reps" name="squat_reps"><br><br> 
+
+                <h2 class = "liftheader">Bench Press</h2>
+                <label for="bench_weight">Weight:</label>
+                <input type="text" id="bench_weight" name="bench_weight"><br><br>
+                <label for="bench_reps">Repetitions:</label>
+                <input type="text" id="bench_reps" name="bench_reps"><br><br>
+
+
+                <h2>Deadlift</h2>
+                <label for="deadlift_weight">Weight:</label>
+                <input type="text" id="deadlift_weight" name="deadlift_weight"><br><br>
+                <label for="deadlift_reps">Repetitions:</label>
+                <input type="text" id="deadlift_reps" name="deadlift_reps"><br><br>
+
+                <button type="submit">Calculate One Rep Maxes</button>
+            </div> 
+
+        
+    </form>
+  </section>
+{% endblock %} 

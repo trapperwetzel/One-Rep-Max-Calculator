@@ -1,0 +1,261 @@
+
+#base-body{
+    background-image: url('/static/images/power2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#indexbody { 
+    color:#262425;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navbar ul{
+    list-style-type: none;
+    display:flex;
+    gap: 30px;
+    background-color:rgba(0, 0, 0, 0.829);
+    padding: 0px;
+    margin: -10px;
+    justify-content: center;
+    
+}   
+
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding: 30px;
+    display: block;
+    text-align: center; 
+    margin:0px;
+}
+
+.navbar a:hover{
+    background-color:rgb(78, 70, 70)
+
+}
+
+
+.navbar li{
+    float: center;
+
+
+}
+
+
+
+.calculator {
+    text-align: center;
+    padding: 10px 20px;
+    background:rgba(49,46,46,0.7);
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+
+}
+
+.calculator h1{
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.calculator h2{
+    text-align: center;
+    color:#ffffff;
+    line-height:1.2;
+    margin-bottom: 20px;
+}
+
+#calculatorheader{
+    color:#000000
+}
+
+.calculator p{
+    color: #ffffff;
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+
+
+
+
+.form-container {
+
+    font-family: 'Georgia', serif;
+    font-size: 15px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    padding-top: 1px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0,0.1);
+}
+
+
+.form-container  h2{
+    color:#000000;
+    
+}
+
+.form-container label {
+    display:block;
+    margin-bottom: 5px;
+    color:#262425;
+}
+
+.form-container input[type="text"] {
+
+    width: 300px;
+    padding:10px;
+    margin-bottom:10px;
+    border: 1px solid #313131;
+    border-radius: 5px;
+
+}
+
+.form-container button{
+    background-color: #DB2525;
+    color:#ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.form-container button:hover{
+    background-color: #BF2020;
+}
+
+.output-page h1{
+    color:white;
+    text-align:center;
+    font-size: 40px;
+}
+
+.output-page pre{
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    border-top: 20px double rgb(214, 214, 214);
+    border-bottom: 20px double rgb(214,214,214);
+}
+
+
+
+
+
+
+
+
+
+
+
+.about-page{
+    background-color: rgb(214,214,214);
+    margin: 50px 50px;
+    padding: 30px;
+}
+
+#proper-usage h2{
+    margin-bottom: 10px;
+}
+#proper-usage ul{
+    margin:0px;
+    padding:0px;
+    text-align:left;
+
+}
+
+#proper-usage ul li{
+margin-bottom: 10px;
+
+
+}
+
+#aboutheader {
+    text-align: center;
+    font-family: Georgia,serif;
+    margin-top:0px;
+    padding-bottom:30px;
+    padding-top:0px
+}
+
+
+#aboutparagraph {
+    font-family: Georgia,serif;
+    text-shadow: -2px 2px 2px rgba(7, 7, 7, 0.0);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify; 
+    color: black;
+    
+}
+
+
+
+
+
+#contactlist {
+    color: white;
+}
+
+
+.contactpage ul li{
+    color:#ffffff;
+    text-align: center; 
+    font-family: Georgia; 
+    font-size: 40px; 
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.contactpage a{
+    list-style-type: none;
+    font-style: normal; 
+    text-decoration: none; 
+    display: block; 
+    padding:10px;
+    
+}
+
+.contactpage a:hover{
+background-color:rgb(214, 214, 214);
+
+
+}
+
+.contactpage a:visited {
+    color:purple;
+
+}
+
+.contactpage a:active{
+    color:rgb(255, 0, 0) 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
